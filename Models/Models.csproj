@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200914150711_initial5.cs" />
+    <Compile Remove="Migrations\20200914150711_initial5.Designer.cs" />
+    <Compile Remove="Migrations\20200914151415_initial5.cs" />
+    <Compile Remove="Migrations\20200914151415_initial5.Designer.cs" />
+    <Compile Remove="Migrations\20200914152127_initial4.cs" />
+    <Compile Remove="Migrations\20200914152127_initial4.Designer.cs" />
+    <Compile Remove="Migrations\20200914152447_initial4.cs" />
+    <Compile Remove="Migrations\20200914152447_initial4.Designer.cs" />
+    <Compile Remove="Migrations\20201029195339_initial10.cs" />
+    <Compile Remove="Migrations\20201029195339_initial10.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EfCore.Shaman" Version="1.0.18351.81" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>

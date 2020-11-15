@@ -1,0 +1,132 @@
+﻿.floating-menu {
+    width: auto;
+    z-index: 1020;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #3FBF77 !important; 
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+    .floating-menu ul {
+        width: 100%;
+        
+    }
+
+.icon-bar {
+    width: 100%;
+    background: #97BF13 !important;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+
+
+.line-div {
+    border-left: 2px solid #ffffff;
+}
+
+.icon-bar li {
+  float: left;
+  width: 50px;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.floating-menu li img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon-bar .container-name {
+    float: left;
+    width: auto;
+    text-align: center;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 1rem;
+}
+.icon-bar li:hover {
+    background-color: #000;
+    cursor:pointer; 
+}
+
+.itemFilterActive {
+    background: #97BF13;
+}
+.itemFilterActiveSub {
+    background: #86a21b !important;
+}
+
+.municipio-select1 {
+    display: block;
+}
+
+.municipio-select2 {
+    display: none;
+}
+
+.municipio-select {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    z-index: 1020;
+    transform: translateX(-50%);
+    background-color: #86a21b;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+
+
+    @media (max-width: 720px) {
+        .municipio-select1 {
+            display: none;
+        }
+
+        .municipio-select2 {
+            display: block;
+        }
+
+        .line-div {
+            border-left: 0;
+            border-top: 2px solid #ffffff;
+        }
+
+        .icon-bar li:hover {
+            background-color: #86a21b;
+            cursor: pointer;
+        }
+
+        .floating-menu {
+            width: 10%;
+            transform: none;
+            left: 90%;
+        }
+
+        .icon-bar .container-name {
+            padding: 3px 0;
+            width: 100%;
+        }
+
+        .icon-bar li {
+            float: none;
+            width: auto;
+        }
+    }
+
+.view-municipio {
+   min-width: 100px !important;
+    padding-bottom: 15px !important;
+}
+
+    .view-municipio:hover {
+        background: #97BF13 !important;
+    }

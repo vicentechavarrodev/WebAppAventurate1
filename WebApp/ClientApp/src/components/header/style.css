@@ -1,0 +1,147 @@
+﻿
+.navbar-header {
+    height: auto;
+    background: #fff !important;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+    .navbar-header p {
+        color: #fff !important;
+        margin-bottom: auto;
+        text-align: center;
+        font-size: 13px;
+        margin-right: 15px;
+        height: 100%;
+        line-height: 3.5em;
+        font-weight: bold;
+    }
+
+        .navbar-header p img {
+            width: 30px;
+        }
+
+    .navbar-header a {
+        color: #fff !important;
+    }
+
+
+
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    left: 10%;
+
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #fff !important;
+        text-align: center;
+        width: 16%;
+        text-decoration: none;
+        background: #97BF13 !important;
+    }
+
+        .topnav a:hover {
+            background: #86a21b !important;
+            color: #fff;
+        }
+
+        .topnav a.active {
+            background: #86a21b !important;
+            color: #fff !important;
+        }
+
+    .topnav .icon {
+        display: none;
+        background: #fff !important;
+        color: #97BF13 !important;
+    }
+
+    .content-logo-sm {
+        display: none;
+    }
+
+.content-logo a {
+    color: #86a21b !important;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .topnav {
+        position: relative;
+
+        left: 0%;
+      
+    }
+
+    .topnav a {
+        width: auto !important;
+        padding: 8px 25px !important;
+    }
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+        .topnav div:not(:first-child) {
+            display: none;
+        }
+
+        .topnav a:hover {
+            background: #86a21b !important;
+            color: #fff !important;
+        }
+
+        .topnav a:first-child:hover {
+            background:#fff !important;
+            color: #86a21b !important;
+        }
+
+        .topnav a.icon {
+            display: block;
+        }
+
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .topnav a {
+        width: auto !important;
+        padding: 8px 25px !important;
+    }
+
+    .topnav.responsive {
+        position: fixed;
+        background: #97BF13;
+        width: 100%;
+    }
+
+    .content-logo {
+        display: none;
+    }
+
+    
+
+    .content-logo-sm {
+        display: block;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive div {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

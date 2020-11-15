@@ -1,0 +1,54 @@
+﻿.footer{
+    text-align: center;
+   
+   
+    color: #fff;
+    background-color: #333;
+}
+
+    .footer > h6 {
+        font-size: 0.6rem;
+        vertical-align: middle;
+        line-height: 40px;
+    }
+
+
+    ul.footernav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    ul.footernav li {
+        float: left;
+    }
+
+        ul.footernav li a {
+            display: block;
+            color: white !important;
+            text-align: center;
+            padding: 15px 16px;
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+
+            ul.footernav li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            ul.footernav li a.active {
+                background-color: #4CAF50;
+            }
+
+        ul.footernav li.right {
+            float: right;
+        }
+
+@media screen and (max-width: 600px) {
+    ul.footernav li.right,
+    ul.footernav li {
+        float: none;
+    }
+}

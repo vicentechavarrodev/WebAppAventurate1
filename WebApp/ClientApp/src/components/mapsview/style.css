@@ -1,0 +1,157 @@
+﻿
+.menu-categoria {
+    width: 100%;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+    .menu-categoria div {
+        color: #fefefe;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        background-color: #3FBF77;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .menu-categoria a:hover {
+        background: #333;
+        color: white;
+    }
+
+
+
+        .bottom-navbar a.active {
+            background-color: #fff;
+            color: #333;
+        }
+
+
+.perfil-logo {
+    width: 100%;
+    height: 180px;
+    padding: 5px;
+}
+
+.logo {
+    width: 85px;
+    height: 45px;
+    margin: auto;
+}
+
+.text-logo {
+    display: block;
+}
+
+.text-logo > p {
+    text-align: left;
+}
+
+a{
+    color:black !important;
+}
+.embed-responsive-16by9 {
+    height: 400px;
+}
+.scroll {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.icon-bar-social {
+    display: none;
+}
+
+.text-social{
+    text-align:left!important;
+}
+
+@media (max-width: 720px) {
+    .text-logo {
+        display: none;
+      
+    }
+
+    .embed-responsive-16by9 {
+        height: auto;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .no-margin-mobile{
+        margin-bottom:0!important;
+    }
+
+    .text-social {
+        text-align: center !important;
+    }
+
+    .icon-bar-social {
+        display: block;
+        position: fixed;
+        z-index: 1020;
+        width: 100%;
+        left:0;
+        top: 97%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+        .icon-bar-social a {
+            display: block;
+            float: left;
+            text-align: center;
+            width: 16.6%;
+            padding: 10px 0 10px 0;
+            height: 10%;
+            transition: all 0.3s ease;
+            color: white !important;
+            font-size: 16px;
+        }
+
+            .icon-bar-social a:hover {
+                background-color: #000;
+            }
+
+    .facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .instagram {
+        background: #DD2A7B;
+        color: white;
+    }
+
+    .youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    .mail{
+        background: #007bb5;
+        color: white;
+    }
+
+    .whatsapp {
+        background: #00bb2d;
+        color: white;
+    }
+
+
+   
+
+   
+}

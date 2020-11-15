@@ -1,0 +1,139 @@
+﻿/* ---------------------------------------------------
+    VARIABLES GLOBALES 
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    LATERAL BAR  STYLE
+----------------------------------------------------- */
+#sidebar {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) !important;
+    min-width: 250px;
+    max-width: 250px;
+    background: #97BF13 !important;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: 0;
+}
+
+    #sidebar.noActive {
+        margin-left: -250px;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #97BF13 !important;
+    }
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color:#fff !important;
+}
+
+    #sidebar ul li a:hover {
+        color: #fff;
+        background: #86a21b !important;
+    }
+
+
+
+    #sidebar ul li.active > a,
+    a[aria-expanded="true"] {
+        color: #fff;
+        background: #86a21b !important;
+    }
+
+    #sidebar ul li.active > a,
+    a[aria-expanded="true"] .icon {
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        display: block;
+        top: 0% !important;
+        right: 5px;
+    }
+
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-separator {
+    margin: 0px !important;
+}
+
+.icon-l {
+    position: relative;
+    top: 0% !important;
+    right: 5px;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.dropdown-toggle .icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+
+#sidebar ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #fff;
+    color: #000;
+}
+
+
+.itemActive {
+    background: #86a21b !important;
+    color: #fff !important;
+}
+
+
+.menu-lateral {
+    min-height: 100%;
+    background: #97BF13 !important;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        padding-top: 40px;
+        z-index: 99;
+        position: fixed;
+        overflow-y: scroll;
+        top: 0;
+        bottom: 0;
+    }
+
+
+
+    #sidebarCollapse span {
+        display: none;
+    }
+}
