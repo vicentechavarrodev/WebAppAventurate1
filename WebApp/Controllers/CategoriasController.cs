@@ -14,8 +14,8 @@ using WebApp.Helpers;
 
 namespace WebApp.Controllers
 {
-    [Produces("application/json")]
-    [Route("api/[controller]")]
+        [Produces("application/json")]
+        [Route("api/[controller]")]
     public class CategoriasController : Controller
     {
         private readonly DataContext db;

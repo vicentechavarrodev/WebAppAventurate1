@@ -8,6 +8,7 @@
     <SpaRoot>ClientApp\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <UserSecretsId>fd77b004-8e54-4b03-b0a3-a8542513a894</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

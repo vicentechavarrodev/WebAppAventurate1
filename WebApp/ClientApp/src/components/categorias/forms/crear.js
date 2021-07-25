@@ -76,8 +76,11 @@ class CrearCategoria extends Component {
     FileSelectChange(e) {
         e.preventDefault();
         let form = new FormData();
+        console.log(e.target.files);
+
         for (var index = 0; index < e.target.files.length; index++) {
             var element = e.target.files[index];
+          
             form.append('Imagen', element);
         }
         this.setState({ file: form });

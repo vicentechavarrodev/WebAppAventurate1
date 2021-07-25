@@ -36,7 +36,7 @@ namespace Models
             foreach (var fk in cascadeFKs)
                 fk.DeleteBehavior = DeleteBehavior.Restrict;
 
-           // this.FixOnModelCreating(modelBuilder);
+            this.FixOnModelCreating(modelBuilder);
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(DataContext).Assembly);
         }
